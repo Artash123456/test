@@ -1,0 +1,21 @@
+* {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+::-webkit-scrollbar-thumb {
+  height: 0;
+  width: 0;
+}
+
+@media (max-width: 1350px) {
+  * {
+    font-size: 9px;
+  }
+}
